@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EA21FC401B1CFF16003F42FC /* IMG_0014.png in Resources */ = {isa = PBXBuildFile; fileRef = EA21FC3F1B1CFF16003F42FC /* IMG_0014.png */; };
+		EA21FC421B1D0C27003F42FC /* IMG_0015.png in Resources */ = {isa = PBXBuildFile; fileRef = EA21FC411B1D0C27003F42FC /* IMG_0015.png */; };
 		EA4A5CCA1B19205A00172D61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4A5CC91B19205A00172D61 /* main.m */; };
 		EA4A5CCD1B19205A00172D61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4A5CCC1B19205A00172D61 /* AppDelegate.m */; };
 		EA4A5CD01B19205A00172D61 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4A5CCF1B19205A00172D61 /* ViewController.m */; };
@@ -30,6 +31,7 @@
 
 /* Begin PBXFileReference section */
 		EA21FC3F1B1CFF16003F42FC /* IMG_0014.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_0014.png; sourceTree = "<group>"; };
+		EA21FC411B1D0C27003F42FC /* IMG_0015.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_0015.png; sourceTree = "<group>"; };
 		EA4A5CC41B19205A00172D61 /* JenkinsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JenkinsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA4A5CC81B19205A00172D61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA4A5CC91B19205A00172D61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 		EA4A5CC71B19205A00172D61 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EA21FC411B1D0C27003F42FC /* IMG_0015.png */,
 				EA21FC3F1B1CFF16003F42FC /* IMG_0014.png */,
 				EA4A5CED1B1920EC00172D61 /* Photo on 5-29-15 at 9.47 AM.jpg */,
 				EA4A5CC81B19205A00172D61 /* Info.plist */,
@@ -210,6 +213,7 @@
 				EA4A5CD81B19205A00172D61 /* LaunchScreen.xib in Resources */,
 				EA4A5CEE1B1920EC00172D61 /* Photo on 5-29-15 at 9.47 AM.jpg in Resources */,
 				EA4A5CD51B19205A00172D61 /* Images.xcassets in Resources */,
+				EA21FC421B1D0C27003F42FC /* IMG_0015.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
