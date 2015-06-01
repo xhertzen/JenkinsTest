@@ -16,12 +16,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Photo on 5-29-15 at 9.47 AM.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Ftc-zB-kEV">
-                                <rect key="frame" x="31" y="46" width="538" height="474"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="22" y="55" width="357" height="435"/>
-                                </variation>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="счастливая случайность" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GNa-2f-glb">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="26"/>
@@ -40,18 +34,26 @@
                                     <rect key="frame" x="179" y="20" width="45" height="21"/>
                                 </variation>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_0014.png" translatesAutoresizingMaskIntoConstraints="NO" id="MvT-hc-Xo8">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="37" y="80" width="324" height="355"/>
+                                </variation>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.12549020349979401" green="0.47843140363693237" blue="0.4901961088180542" alpha="1" colorSpace="deviceRGB"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="GNa-2f-glb"/>
                                 <exclude reference="Aj3-aB-bbW"/>
+                                <exclude reference="MvT-hc-Xo8"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
                                 <include reference="GNa-2f-glb"/>
                                 <include reference="Aj3-aB-bbW"/>
+                                <include reference="MvT-hc-Xo8"/>
                             </mask>
                         </variation>
                     </view>
@@ -62,6 +64,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Photo on 5-29-15 at 9.47 AM.jpg" width="1080" height="720"/>
+        <image name="IMG_0014.png" width="1000" height="750"/>
     </resources>
 </document>
