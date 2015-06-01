@@ -40,6 +40,16 @@
                                     <rect key="frame" x="37" y="80" width="324" height="355"/>
                                 </variation>
                             </imageView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="sZ6-kN-W2H">
+                                <rect key="frame" x="-61" y="-14" width="123" height="29"/>
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                </segments>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="145" y="451" width="123" height="29"/>
+                                </variation>
+                            </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" red="0.12549020349979401" green="0.47843140363693237" blue="0.4901961088180542" alpha="1" colorSpace="deviceRGB"/>
                         <variation key="default">
@@ -47,6 +57,7 @@
                                 <exclude reference="GNa-2f-glb"/>
                                 <exclude reference="Aj3-aB-bbW"/>
                                 <exclude reference="MvT-hc-Xo8"/>
+                                <exclude reference="sZ6-kN-W2H"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -54,6 +65,7 @@
                                 <include reference="GNa-2f-glb"/>
                                 <include reference="Aj3-aB-bbW"/>
                                 <include reference="MvT-hc-Xo8"/>
+                                <include reference="sZ6-kN-W2H"/>
                             </mask>
                         </variation>
                     </view>
