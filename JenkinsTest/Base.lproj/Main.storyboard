@@ -40,6 +40,13 @@
                                     <rect key="frame" x="9" y="66" width="382" height="407"/>
                                 </variation>
                             </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u2b-Is-d1h">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" red="0.60000002384185791" green="0.10588236153125763" blue="0.31372550129890442" alpha="1" colorSpace="deviceRGB"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="9" y="40" width="382" height="26"/>
+                                </variation>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.12549020349979401" green="0.47843140363693237" blue="0.4901961088180542" alpha="1" colorSpace="deviceRGB"/>
                         <variation key="default">
@@ -47,6 +54,7 @@
                                 <exclude reference="GNa-2f-glb"/>
                                 <exclude reference="Aj3-aB-bbW"/>
                                 <exclude reference="zV7-z5-0YO"/>
+                                <exclude reference="u2b-Is-d1h"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -54,6 +62,7 @@
                                 <include reference="GNa-2f-glb"/>
                                 <include reference="Aj3-aB-bbW"/>
                                 <include reference="zV7-z5-0YO"/>
+                                <include reference="u2b-Is-d1h"/>
                             </mask>
                         </variation>
                     </view>
